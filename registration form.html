@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registration Form - Olatunji Fabamise</title>
+        <link rel="stylesheet" type="text/css" href="RegStyle.css"/>
+    </head>
+
+    <body>
+        <div id="main">
+        <form method="GET" action="">
+                <div>
+                <h1>Registration Form.</h1>
+                <h3><em>Created by <span>Olatunji Fabamise</span></em></h3>
+                </div>
+                <div>
+                    <label>Full Name:</label>
+                    <input type="text" 
+                           name="fullname"
+                           id="fullname"
+                           required
+                           autofocus="autofocus"
+                           placeholder="Enter Full Name here"
+                           size="30"
+                           value="">
+                </div>
+                <div>
+                        <label>User Name:</label>
+                        <input type="text" 
+                               name="userName"
+                               id="userName"
+                               required="required"
+                               autofocus="autofocus"
+                               placeholder="username"
+                               size="30">
+                    </div>
+                    <div>
+                            <label>Gender:</label>
+                            <select name="s_box">
+                                <option value="s_male">Male</option>
+                                <option value="s_female" selected>Female</option>
+                                <option value="s_infant">Infant</option>
+                                </select>
+                    </div>
+                       
+                            <div>
+                                <label>Date of Birth:</label>
+                                <input type="date" 
+                                       required="required" 
+                                       name="dateofBirth" 
+                                       id="dateofBirth" />
+                            </div> 
+                            <div>
+                                <label>Mobile No:</label>
+                                <input type="tel" 
+                                       name="mobileNo"
+                                       id="mobileNo"
+                                       required="required"
+                                       placeholder="+234 (0) 806 661 3009"
+                                       size="30">
+                            </div>
+                           <div>
+                                <label>Email:</label>
+                                <input type="email" 
+                                       name="email"
+                                       id="email"
+                                       required="required"
+                                       placeholder="example@mail.com"
+                                       pattern=".+">
+                            </div>
+                            <div>
+                                    <label>Password:</label>
+                                    <input type="password" 
+                                           name="password"
+                                           id="pwd"
+                                           required="required"
+                                           value=""
+                                           placeholder="******">
+                            </div>
+                            <div>
+                                <label>Confirm Password:</label>
+                                <input type="password" 
+                                       name="confirmPwd"
+                                       id="confirmPwd"
+                                       required="required"
+                                       value=""
+                                       placeholder="******">
+
+                            </div>
+                        <div>
+                            <p><input  type="checkbox"
+                                       required="required"
+                                       class="checkBox"
+                                       id="termCond">I agree with the <a href="termCondition.html">Term and Conditions</a></p>
+                        
+                        <div class="buttons">
+                            <button class="reset"
+                                    type="reset"
+                                    id="btn">Reset
+                            </button>
+                            <button class="submit"
+                                    id="btn"
+                                    type="submit">Sign Up
+                            </button>
+                        </div><br>
+                        <div class="login">
+                            <p>If you already have account <a href="#">Login here.</a></p>
+                        </div>
+                        
+        </form>
+            </div>
+    </body>
+</html>

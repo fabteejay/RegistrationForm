@@ -1,0 +1,211 @@
+/*Registration Form CSS. */
+#main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 1% 30%;
+    width: 0 auto;
+}
+form{
+    border: solid 5px rgb(10, 4, 59);
+    background-color: powderblue;
+    padding: 2%;
+    border-radius: 5px;
+    padding-top: 0 auto;
+    padding-left: 2px;
+    box-shadow: 2px 3px 6px rgb(10, 4, 59) inset, -3px -3px 6px rgb(10, 4, 59) inset;
+    
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    color: #0000fb;
+    font-size: 50px;
+    margin: 10px 0 15px;
+    text-decoration: underline;
+        
+}
+input, h1:hover{
+    color: black
+}
+h3{
+    color: rgb(143, 142, 140);
+    text-align: right;
+    margin-top: -13px;
+    padding-right: 20px;
+}
+h3 span:hover{
+    color:#fff;
+    font-family: fantasy;
+}
+label{
+    color: darkblue;
+    clear: both;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 12px;
+    padding: 10px;
+    text-align: end;
+    font-size: 18px;
+}
+input, select{
+    width: 300px;
+    height: 9px;
+    padding: 8px;
+    margin: 8px;
+    border: rgb(247, 247, 248) 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(47, 47, 236);
+
+}
+.checkBox{
+    width: 30px;
+
+}
+.buttons{
+    margin: -10px 20px 5px;
+    padding: 0 30px;
+
+}
+#btn:hover{
+    background-color: #0707a3;
+    color: #fff;
+}
+.reset{
+    float: left;
+    
+}
+.submit{
+    float: right;
+}
+option{
+    background: rgba(0, 162, 255, 0.212);
+    color: #0707a3;
+    text-align: center;
+}
+#btn {
+    background-color: #3e56df50;
+    color: #0707a3;
+    padding: 0.5rem 1rem;
+    border-radius: 5.5px;
+    box-shadow: 2px 2px 4px rgb(10, 4, 59) inset, -3px -3px 4px rgb(10, 4, 59) inset;
+    margin: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.login{
+    text-align: center;
+    margin-top: 3rem;
+}
+a:visited{
+color: red;
+}
+a:active{
+    color: #0000fb;
+}
+a:hover{
+    color: blueviolet;
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: #0707a3;
+}
+/*Media Queries*/
+@media screen and (max-width: 900px) {
+    #main{
+       margin: 0;
+       padding: 1rem;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+       width: 0 auto;
+       overflow: auto;
+   }
+   input, select{
+    width: 300px;
+    height: 12px;
+    padding: 8px;
+    margin: 8px;
+    font-size: 16px;
+    overflow: auto;
+    
+}
+label{
+    
+    float: left;
+    width: 150px;
+    height: 12px;
+    padding: 10px;
+    text-align: end;
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
+}
+
+.buttons{
+    margin: -10px 10px 5px;
+    padding: 0 30px;
+
+}
+.reset{
+    float: inline-start;
+    
+}
+.submit{
+    float: inline-end
+}
+}
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+    #main{
+       margin: 0;
+       padding: 1rem;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+       width: 0 auto;
+       overflow: auto;
+   }
+   input, select{
+    width: 200px;
+    height: 12px;
+    padding: 8px;
+    margin: 8px;
+    font-size: 14px;
+    overflow: auto;
+
+}
+label{
+    
+    float: left;
+    width: 100px;
+    height: 12px;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    
+}
+h1{
+    font-size: 30px;
+    font-display: swap;
+}
+
+.buttons{
+    margin: -10px 10px 5px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.reset{
+    float: inline-start;
+    
+}
+.submit{
+    float: inline-end
+}
+}
